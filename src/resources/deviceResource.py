@@ -1,4 +1,3 @@
-from signal import default_int_handler
 from flask_restful import Resource, reqparse
 from src.models.deviceModel import DeviceModel
 
