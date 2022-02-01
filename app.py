@@ -5,7 +5,7 @@ from db import db
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://wqfzqlzyoonvbu:389c6f6717bbb996f8bf7604dfa9cb22c8ec7c9e165a3698a78c9f8e57b5c177@ec2-54-161-189-150.compute-1.amazonaws.com:5432/dfv8v2skrl9rkf"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://fzcpptcdpeiuxh:5b0cfb537916c5e389fd1938aeec0277f1c35dcc14e20cdff7250e8be714ca17@ec2-34-194-171-47.compute-1.amazonaws.com:5432/d7fgnqa6hdktu8"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SECRET_KEY"] = "development"
 app.config['PROPAGATE_EXCEPTIONS'] = True
